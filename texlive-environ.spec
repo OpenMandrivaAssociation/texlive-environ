@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/environ
+# catalog-date 2008-08-19 08:58:40 +0200
+# catalog-license lppl
+# catalog-version 0.2
 Name:		texlive-environ
 Version:	0.2
 Release:	1
@@ -48,6 +54,7 @@ trailing spaces.
 #- source
 %doc %{_texmfdistdir}/source/latex/environ/environ.dtx
 %doc %{_texmfdistdir}/source/latex/environ/environ.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +65,5 @@ trailing spaces.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
