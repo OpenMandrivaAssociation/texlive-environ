@@ -6,7 +6,7 @@
 # catalog-version 0.2
 Name:		texlive-environ
 Version:	0.2
-Release:	1
+Release:	2
 Summary:	A new interface for environments in LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/environ
