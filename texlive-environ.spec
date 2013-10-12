@@ -1,12 +1,12 @@
-# revision 15878
+# revision 29600
 # category Package
 # catalog-ctan /macros/latex/contrib/environ
-# catalog-date 2008-08-19 08:58:40 +0200
+# catalog-date 2013-04-01 18:04:30 +0200
 # catalog-license lppl
-# catalog-version 0.2
+# catalog-version 0.3
 Name:		texlive-environ
-Version:	0.2
-Release:	2
+Version:	0.3
+Release:	1
 Summary:	A new interface for environments in LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/environ
@@ -54,17 +54,3 @@ trailing spaces.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2-2
-+ Revision: 751489
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.2-1
-+ Revision: 718340
-- texlive-environ
-- texlive-environ
-- texlive-environ
-- texlive-environ
-
