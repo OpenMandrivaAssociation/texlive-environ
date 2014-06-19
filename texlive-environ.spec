@@ -1,12 +1,12 @@
-# revision 29600
+# revision 33821
 # category Package
 # catalog-ctan /macros/latex/contrib/environ
-# catalog-date 2013-04-01 18:04:30 +0200
+# catalog-date 2014-02-26 23:03:13 +0100
 # catalog-license lppl
 # catalog-version 0.3
 Name:		texlive-environ
 Version:	0.3
-Release:	6
+Release:	7
 Summary:	A new interface for environments in LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/environ
